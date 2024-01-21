@@ -1,11 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-export default function Task({
-    task: { id, title, state },
-    onArchiveTask,
-    onPinTask,
-}) {
+
+export default function Task({ task: { id, title, state }, onArchiveTask, onPinTask }) {
     return (
         <div className={`list-item ${state}`}>
             <label
@@ -33,6 +30,7 @@ export default function Task({
                     readOnly={true}
                     name="title"
                     placeholder="Input title"
+                    style={{ textOverflow: 'ellipsis' }}
                 />
             </label>
 
