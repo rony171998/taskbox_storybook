@@ -1,0 +1,9 @@
+{
+    "projectId": "Project:chpt_bde82cde6722ca8",
+    "autoAcceptChanges": "main",
+    "exitOnceUploaded": true,
+    "externals": ["public/**"],
+    "onlyChanged": true,
+    "skip": ["dependabot/**"],
+    "junitReport": true
+  }
